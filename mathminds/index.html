@@ -5,137 +5,249 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="MathMinds - A student-led tutoring non-profit based in Santa Clarita, CA. Empowering students through peer tutoring since December 2025.">
     <title>MathMinds | Student-Led Tutoring</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <div class="global-bg">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-    </div>
-
     <!-- Navigation -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo-container">
-                <div class="logo-circle">
-                    <span class="logo-math">Math</span>
-                    <span class="logo-minds">Minds</span>
-                    <svg class="logo-swoosh" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5,15 Q50,0 95,15" fill="transparent" stroke="#F6D365" stroke-width="3" stroke-linecap="round"/>
-                    </svg>
-                </div>
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-mark">M</div>
+                <div class="nav-logo-text">Math<span>Minds</span></div>
             </a>
-            
+
             <ul class="nav-links">
                 <li><a href="about.html">About</a></li>
                 <li><a href="process.html">How It Works</a></li>
-                <li><a href="team.html">Our Team</a></li>
+                <li><a href="team.html">Team</a></li>
                 <li><a href="get-involved.html">Get Involved</a></li>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSek9P1dbKCcjcr-a6cJhIgOsyn_gFrzwOZ3hdovjmBVsl-ZmA/viewform?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" class="btn btn-primary nav-cta">Sign Up</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSek9P1dbKCcjcr-a6cJhIgOsyn_gFrzwOZ3hdovjmBVsl-ZmA/viewform?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" class="nav-cta">Sign Up</a></li>
             </ul>
 
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button class="nav-hamburger" aria-label="Menu">
+                <div class="nav-hamburger-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header id="hero">
-        <div class="hero-content">
-            <div class="hero-badge">Est. December 2025</div>
-            <h1 class="hero-title">Empowering Students Through <span class="highlight-text">Peer Tutoring</span></h1>
-            <p class="hero-subtitle">Based in 📍 Santa Clarita, CA. We are a student-led non-profit organization dedicated to making math accessible, understandable, and enjoyable for everyone.</p>
-            <div class="hero-buttons">
-                <a href="get-involved.html" class="btn btn-primary btn-large">Get Tutoring</a>
-                <a href="about.html" class="btn btn-secondary btn-large">Learn More</a>
+    <!-- Mobile Nav Overlay -->
+    <div class="nav-overlay">
+        <div class="nav-overlay-links">
+            <a href="about.html">About</a>
+            <a href="process.html">How It Works</a>
+            <a href="team.html">Team</a>
+            <a href="get-involved.html">Get Involved</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSek9P1dbKCcjcr-a6cJhIgOsyn_gFrzwOZ3hdovjmBVsl-ZmA/viewform?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank">Sign Up</a>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-marquee">
+            <div class="marquee-row marquee-row--left">
+                <span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span>
+            </div>
+            <div class="marquee-row marquee-row--right">
+                <span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span>
+            </div>
+            <div class="marquee-row marquee-row--left">
+                <span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span>
+            </div>
+            <div class="marquee-row marquee-row--right">
+                <span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span>
+            </div>
+            <div class="marquee-row marquee-row--left">
+                <span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span><span>MATHMINDS</span>
             </div>
         </div>
-        
-        <div id="robot-wrapper">
-            <svg id="interactive-robot" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <!-- Body -->
-                <path d="M50 140 Q100 150 150 140 L130 200 L70 200 Z" fill="#e2e8f0"/>
-                <!-- Neck -->
-                <rect x="90" y="110" width="20" height="30" fill="#cbd5e1" id="robot-neck"/>
-                <!-- Head -->
-                <g id="robot-head">
-                    <!-- Antenna -->
-                    <line x1="100" y1="40" x2="100" y2="20" stroke="#cbd5e1" stroke-width="4"/>
-                    <circle cx="100" cy="15" r="8" fill="#F6D365" id="robot-antenna-bulb"/>
-                    <!-- Face Base -->
-                    <rect x="50" y="40" width="100" height="70" rx="15" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
-                    <!-- Screen -->
-                    <rect x="60" y="50" width="80" height="50" rx="8" fill="#081a2d"/>
-                    
-                    <!-- Left Eye -->
-                    <g id="eye-left">
-                        <circle cx="80" cy="75" r="12" fill="#ffffff"/>
-                        <circle cx="80" cy="75" r="5" fill="#66a3ff" id="pupil-left"/>
-                    </g>
-                    <!-- Right Eye -->
-                    <g id="eye-right">
-                        <circle cx="120" cy="75" r="12" fill="#ffffff"/>
-                        <circle cx="120" cy="75" r="5" fill="#66a3ff" id="pupil-right"/>
-                    </g>
-                </g>
-            </svg>
-        </div>
-    </header>
 
-    <!-- CTA & Contact -->
-    <section id="contact" class="section cta-section">
-        <div class="container text-center">
-            <h2 class="section-title text-white">Ready to Boost Your Math Skills?</h2>
-            <p class="section-description text-white-opacity">Join the MathMinds community today. Whether you need a tutor or want to become one, we'd love to hear from you.</p>
-            
-            <div class="cta-card">
-                <h3>Take Action</h3>
-                <p>Click the link below to access our sign-up forms for the upcoming semester, or learn how to volunteer.</p>
-                <a href="get-involved.html" class="btn btn-primary btn-large cta-button">Get Involved</a>
-                <p class="mt-4"><small>Or email us at <a href="mailto:mathminds.ca@gmail.com">mathminds.ca@gmail.com</a></small></p>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="hero-badge-dot"></span>
+                Est. December 2025
+            </div>
+
+            <h1 class="hero-title">
+                <span class="word"><span class="word-inner">Empowering</span></span>
+                <span class="word"><span class="word-inner">Students</span></span>
+                <span class="word"><span class="word-inner">Through</span></span>
+                <span class="word"><span class="word-inner"><em>Peer</em></span></span>
+                <span class="word"><span class="word-inner"><em>Tutoring</em></span></span>
+            </h1>
+
+            <p class="hero-subtitle">A student-led non-profit in Santa Clarita, CA making math accessible, understandable, and genuinely enjoyable for everyone.</p>
+
+            <div class="hero-buttons">
+                <a href="get-involved.html" class="btn btn-primary btn-large">
+                    Get Tutoring
+                    <svg class="btn-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10h10M11 6l4 4-4 4"/></svg>
+                </a>
+                <a href="about.html" class="btn btn-outline btn-large">Learn More</a>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span class="hero-scroll-text">Scroll</span>
+            <div class="hero-scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Big Statement -->
+    <section class="statement section">
+        <div class="container">
+            <p class="statement-text reveal-up">Every student deserves a chance to <em>excel</em> in mathematics — regardless of background, school, or budget.</p>
+        </div>
+    </section>
+
+    <div class="container"><div class="section-divider"></div></div>
+
+    <!-- What We Offer -->
+    <section class="section">
+        <div class="container">
+            <span class="section-label reveal-up">What We Offer</span>
+            <h2 class="section-title reveal-up">Built by students,<br>for students</h2>
+            <p class="section-description reveal-up">We connect struggling students with peer tutors who recently mastered the same material — creating a relatable, pressure-free learning experience.</p>
+
+            <div class="card-grid">
+                <div class="glow-card reveal-up" data-delay="0">
+                    <div class="glow-card-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Student-Led</h3>
+                    <p>Our tutors are peers who have recently conquered the same concepts, so they know exactly where you get stuck.</p>
+                </div>
+                <div class="glow-card reveal-up" data-delay="80">
+                    <div class="glow-card-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Community Focused</h3>
+                    <p>Proudly serving the Santa Clarita valley and surrounding areas with both virtual and in-person sessions.</p>
+                </div>
+                <div class="glow-card reveal-up" data-delay="160">
+                    <div class="glow-card-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Free &amp; Accessible</h3>
+                    <p>Quality education should never come with a price tag. MathMinds is free — always has been, always will be.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section">
+        <div class="container">
+            <span class="section-label reveal-up">How It Works</span>
+            <h2 class="section-title reveal-up">Three steps to<br>better grades</h2>
+            <p class="section-description reveal-up">Getting started is simple, fast, and completely free.</p>
+
+            <div class="steps-container">
+                <div class="step-item reveal-up" data-delay="0">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Sign Up</h3>
+                        <p>Fill out our simple form with your current math level, specific struggles, and goals for the semester.</p>
+                    </div>
+                </div>
+                <div class="step-item reveal-up" data-delay="100">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Get Matched</h3>
+                        <p>Our team reviews your submission and connects you with a peer tutor who has recently excelled in that exact subject.</p>
+                    </div>
+                </div>
+                <div class="step-item reveal-up" data-delay="200">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Start Learning</h3>
+                        <p>Coordinate directly with your tutor for regular virtual or in-person sessions. Build confidence at your own pace.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container"><div class="section-divider"></div></div>
+
+    <!-- Impact Stats -->
+    <section class="section" id="stats-section">
+        <div class="container">
+            <span class="section-label reveal-up">Our Impact</span>
+            <h2 class="section-title reveal-up">The numbers behind<br>our mission</h2>
+            <p class="section-description reveal-up">Growing every semester with the support of our community.</p>
+
+            <div class="bento-grid">
+                <div class="bento-item bento-item--wide reveal-up">
+                    <div class="stat-value"><span data-count="150">0</span><span class="stat-suffix">+</span></div>
+                    <div class="stat-label">Students Helped</div>
+                </div>
+                <div class="bento-item bento-item--narrow bento-item--accent reveal-up" data-delay="80">
+                    <div class="stat-value"><span data-count="500">0</span><span class="stat-suffix">+</span></div>
+                    <div class="stat-label">Hours Tutored</div>
+                </div>
+                <div class="bento-item bento-item--narrow reveal-up" data-delay="160">
+                    <div class="stat-value"><span data-count="25">0</span></div>
+                    <div class="stat-label">Student Volunteers</div>
+                </div>
+                <div class="bento-item bento-item--wide bento-item--accent reveal-up" data-delay="240">
+                    <div class="stat-value"><span data-count="100">0</span><span class="stat-suffix">%</span></div>
+                    <div class="stat-label">Free Forever</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section section">
+        <div class="container">
+            <div class="cta-content reveal-up">
+                <h2 class="cta-title">Ready to boost your<br>math skills?</h2>
+                <p class="cta-subtitle">Join the MathMinds community today. Whether you need a tutor or want to become one, we'd love to hear from you.</p>
+                <a href="get-involved.html" class="btn btn-primary btn-large">
+                    Get Involved
+                    <svg class="btn-arrow" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10h10M11 6l4 4-4 4"/></svg>
+                </a>
+                <p class="cta-email">Or email us at <a href="mailto:mathminds.ca@gmail.com">mathminds.ca@gmail.com</a></p>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <div class="logo-text-inline">
-                    <span class="logo-math">Math</span><span class="logo-minds" style="color:var(--primary-color)">Minds</span>
+    <footer class="footer">
+        <div class="footer-brand-massive">MathMinds</div>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand-col">
+                    <div class="footer-brand-logo">Math<span>Minds</span></div>
+                    <p>Empowering students through peer tutoring.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/mathminds.official" target="_blank" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                    </div>
                 </div>
-                <p>Empowering students through peer tutoring.</p>
-                <div class="social-links">
-                    <a href="https://instagram.com/mathminds.official" target="_blank" aria-label="Instagram">
-                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                    </a>
+                <div class="footer-links-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="process.html">How It Works</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="footer-links">
-                <h4>Explore</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="team.html">Our Team</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Legal</h4>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="mailto:mathminds.ca@gmail.com">Contact Us</a></li>
-                </ul>
+                <div class="footer-links-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="mailto:mathminds.ca@gmail.com">Contact Us</a></li>
+                        <li><a href="https://instagram.com/mathminds.official" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 MathMinds. All rights reserved. Located in Santa Clarita, CA.</p>
+            <div class="container">&copy; 2026 MathMinds. All rights reserved. Santa Clarita, CA.</div>
         </div>
     </footer>
 

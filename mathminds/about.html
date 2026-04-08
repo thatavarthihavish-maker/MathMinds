@@ -5,94 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="About MathMinds - A student-led tutoring non-profit based in Santa Clarita, CA.">
     <title>About | MathMinds</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <div class="global-bg">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-    </div>
-
     <!-- Navigation -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo-container">
-                <div class="logo-circle">
-                    <span class="logo-math">Math</span>
-                    <span class="logo-minds">Minds</span>
-                    <svg class="logo-swoosh" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5,15 Q50,0 95,15" fill="transparent" stroke="#F6D365" stroke-width="3" stroke-linecap="round"/>
-                    </svg>
-                </div>
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-mark">M</div>
+                <div class="nav-logo-text">Math<span>Minds</span></div>
             </a>
-            
             <ul class="nav-links">
                 <li><a href="about.html">About</a></li>
                 <li><a href="process.html">How It Works</a></li>
-                <li><a href="team.html">Our Team</a></li>
+                <li><a href="team.html">Team</a></li>
                 <li><a href="get-involved.html">Get Involved</a></li>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSek9P1dbKCcjcr-a6cJhIgOsyn_gFrzwOZ3hdovjmBVsl-ZmA/viewform?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" class="btn btn-primary nav-cta">Sign Up</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSek9P1dbKCcjcr-a6cJhIgOsyn_gFrzwOZ3hdovjmBVsl-ZmA/viewform?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" class="nav-cta">Sign Up</a></li>
             </ul>
-
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button class="nav-hamburger" aria-label="Menu">
+                <div class="nav-hamburger-lines"><span></span><span></span><span></span></div>
+            </button>
         </div>
     </nav>
 
+    <div class="nav-overlay">
+        <div class="nav-overlay-links">
+            <a href="about.html">About</a>
+            <a href="process.html">How It Works</a>
+            <a href="team.html">Team</a>
+            <a href="get-involved.html">Get Involved</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSek9P1dbKCcjcr-a6cJhIgOsyn_gFrzwOZ3hdovjmBVsl-ZmA/viewform?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank">Sign Up</a>
+        </div>
+    </div>
+
     <!-- Page Header -->
-    <div style="height: 100px;"></div> <!-- Spacer -->
-    
-    <!-- About Section -->
+    <div class="page-header">
+        <div class="container">
+            <span class="section-label reveal-up">About Us</span>
+            <h1 class="section-title reveal-up">Who we are &amp; why<br>we exist</h1>
+            <p class="section-description reveal-up">Founded by students who saw a gap in math education and decided to bridge it themselves.</p>
+        </div>
+    </div>
+
+    <!-- About Grid -->
     <section class="section">
         <div class="container">
             <div class="about-grid">
                 <div class="about-text">
-                    <h2 class="section-title">Who Are We?</h2>
-                    <p class="section-description">MathMinds was founded by Havish Thatavarthi and passionate students in Santa Clarita who recognized a critical need: bridging the gap in math education through relatable, peer-to-peer mentorship.</p>
-                    <p class="section-description">Since our establishment in December 2025, we have been on a mission to build confidence and conceptual understanding in our scholars without the pressure of traditional grading environments.</p>
-                    
+                    <h2 class="section-title reveal-up">Our Story</h2>
+                    <p class="section-description reveal-up">MathMinds was founded by Havish Thatavarthi and passionate students in Santa Clarita who recognized a critical need: bridging the gap in math education through relatable, peer-to-peer mentorship.</p>
+                    <p class="section-description reveal-up">Since our establishment in December 2025, we have been on a mission to build confidence and conceptual understanding in our scholars without the pressure of traditional grading environments.</p>
+
                     <div class="about-features">
-                        <div class="feature-item">
-                            <div class="feature-icon">🎓</div>
+                        <div class="feature-item reveal-up" data-delay="0">
+                            <div class="feature-icon"><i class="fas fa-graduation-cap"></i></div>
                             <div>
                                 <h3>Student-Led</h3>
                                 <p>Tutored by peers who have recently mastered the same concepts.</p>
                             </div>
                         </div>
-                        <div class="feature-item">
-                            <div class="feature-icon">🤝</div>
+                        <div class="feature-item reveal-up" data-delay="80">
+                            <div class="feature-icon"><i class="fas fa-handshake"></i></div>
                             <div>
                                 <h3>Community Focused</h3>
                                 <p>Serving the Santa Clarita valley and surrounding areas.</p>
                             </div>
                         </div>
-                        <div class="feature-item">
-                            <div class="feature-icon">💡</div>
+                        <div class="feature-item reveal-up" data-delay="160">
+                            <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
                             <div>
-                                <h3>Free & Accessible</h3>
+                                <h3>Free &amp; Accessible</h3>
                                 <p>We believe quality education should not come with a price tag.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="about-card">
+
+                <div class="about-card reveal-up" data-delay="100">
                     <div class="acard-header"></div>
                     <div class="acard-profile">
-                        <div class="logo-circle large">
-                            <span class="logo-math">Math</span>
-                            <span class="logo-minds">Minds</span>
-                            <svg class="logo-swoosh" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5,15 Q50,0 95,15" fill="transparent" stroke="#F6D365" stroke-width="3" stroke-linecap="round"/>
-                            </svg>
-                        </div>
+                        <div class="acard-profile-mark">M</div>
                     </div>
                     <div class="acard-body">
                         <h3>MathMinds</h3>
@@ -101,8 +96,8 @@
                         <hr class="acard-divider">
                         <p class="acard-bio">
                             Est. December 2025<br>
-                            Located 📍: Santa Clarita, CA<br>
-                            Sign-up sheet: <a href="get-involved.html">linktr.ee/mathminds</a>
+                            Located <i class="fas fa-location-dot"></i> Santa Clarita, CA<br>
+                            Sign-up: <a href="get-involved.html">mathminds.ca</a>
                         </p>
                     </div>
                 </div>
@@ -110,66 +105,71 @@
         </div>
     </section>
 
-    <!-- Impact/Stats Section Included in About -->
-    <section class="section bg-light">
+    <div class="container"><div class="section-divider"></div></div>
+
+    <!-- Impact Stats -->
+    <section class="section" id="stats-section">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Our Impact</h2>
-                <p class="section-description">The numbers behind our mission to bring free, quality math education everywhere.</p>
-            </div>
-            <div class="stats-grid" id="stats-container">
-                <div class="stat-box">
-                    <h3 class="stat-number" data-target="150">0</h3>
-                    <p class="stat-label">Students Helped</p>
+            <span class="section-label reveal-up">Our Impact</span>
+            <h2 class="section-title reveal-up">The numbers speak<br>for themselves</h2>
+            <p class="section-description reveal-up">The measurable impact behind our mission to bring free math education everywhere.</p>
+
+            <div class="bento-grid">
+                <div class="bento-item bento-item--wide reveal-up">
+                    <div class="stat-value"><span data-count="150">0</span><span class="stat-suffix">+</span></div>
+                    <div class="stat-label">Students Helped</div>
                 </div>
-                <div class="stat-box">
-                    <h3 class="stat-number" data-target="500">0</h3>
-                    <p class="stat-label">Hours Tutored</p>
+                <div class="bento-item bento-item--narrow bento-item--accent reveal-up" data-delay="80">
+                    <div class="stat-value"><span data-count="500">0</span><span class="stat-suffix">+</span></div>
+                    <div class="stat-label">Hours Tutored</div>
                 </div>
-                <div class="stat-box">
-                    <h3 class="stat-number" data-target="25">0</h3>
-                    <p class="stat-label">Student Volunteers</p>
+                <div class="bento-item bento-item--narrow reveal-up" data-delay="160">
+                    <div class="stat-value"><span data-count="25">0</span></div>
+                    <div class="stat-label">Student Volunteers</div>
                 </div>
-                <div class="stat-box">
-                    <h3 class="stat-number" data-target="100">0</h3>
-                    <p class="stat-label">% Free Forever</p>
+                <div class="bento-item bento-item--wide bento-item--accent reveal-up" data-delay="240">
+                    <div class="stat-value"><span data-count="100">0</span><span class="stat-suffix">%</span></div>
+                    <div class="stat-label">Free Forever</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <div class="logo-text-inline">
-                    <span class="logo-math">Math</span><span class="logo-minds" style="color:var(--primary-color)">Minds</span>
+    <footer class="footer">
+        <div class="footer-brand-massive">MathMinds</div>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand-col">
+                    <div class="footer-brand-logo">Math<span>Minds</span></div>
+                    <p>Empowering students through peer tutoring.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/mathminds.official" target="_blank" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                    </div>
                 </div>
-                <p>Empowering students through peer tutoring.</p>
-                <div class="social-links">
-                    <a href="https://instagram.com/mathminds.official" target="_blank" aria-label="Instagram">
-                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                    </a>
+                <div class="footer-links-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="process.html">How It Works</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="footer-links">
-                <h4>Explore</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="team.html">Our Team</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Legal</h4>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="mailto:mathminds.ca@gmail.com">Contact Us</a></li>
-                </ul>
+                <div class="footer-links-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="mailto:mathminds.ca@gmail.com">Contact Us</a></li>
+                        <li><a href="https://instagram.com/mathminds.official" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 MathMinds. All rights reserved. Located in Santa Clarita, CA.</p>
+            <div class="container">&copy; 2026 MathMinds. All rights reserved. Santa Clarita, CA.</div>
         </div>
     </footer>
 
